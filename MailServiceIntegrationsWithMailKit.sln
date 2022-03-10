@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailServiceIntegrationsWithMailKit", "MailServiceIntegrationsWithMailKit\MailServiceIntegrationsWithMailKit.csproj", "{BFE24EA4-7DC3-4E80-A576-037CDE15B3EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFE24EA4-7DC3-4E80-A576-037CDE15B3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE24EA4-7DC3-4E80-A576-037CDE15B3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE24EA4-7DC3-4E80-A576-037CDE15B3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE24EA4-7DC3-4E80-A576-037CDE15B3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEBB150C-113B-4C1B-9229-545CD09F2BD5}
+	EndGlobalSection
+EndGlobal
