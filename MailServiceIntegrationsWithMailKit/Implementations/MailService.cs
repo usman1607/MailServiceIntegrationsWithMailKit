@@ -25,7 +25,7 @@ namespace MailServiceIntegrationsWithMailKit.Implementations
         public async Task SendEmailAsync(MailRequest request)
         {
             var email = new MimeMessage();
-            email.Sender = MailboxAddress.Parse("info@sesesgo.com");
+            email.Sender = MailboxAddress.Parse(_mailSettings.Mail);
             foreach(var toMail in request.ToEmails)
             {
                 email.To.Add(MailboxAddress.Parse(toMail));
